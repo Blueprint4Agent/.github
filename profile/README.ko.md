@@ -30,8 +30,8 @@ Blueprint4Agent/
 │   └── Docusaurus 기반 프로젝트 문서 웹사이트 (GitHub Pages)
 ├── B4FastAPI
 │   └── FastAPI 기반 웹 서버 블루프린트 (현재 모놀리식)
-└── B4Bot (planned)
-    └── 에이전트 기반 프로젝트 자동화 검토/이슈 생성 플로우 저장소
+└── B4Bot
+    └── 에이전트 기반 프로젝트 관리 봇 및 scope별 이슈 생성 액션
 ```
 
 B4A 로컬 워크스페이스를 구성할 때는 개별 저장소들보다 상위의 최상위 루트에 `AGENTS.md`와 `AGENTS.ko.md`를 배치합니다.

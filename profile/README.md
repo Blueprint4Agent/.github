@@ -30,8 +30,8 @@ Blueprint4Agent/
 │   └── Docusaurus-based project documentation website (GitHub Pages)
 ├── B4FastAPI
 │   └── FastAPI-based web server blueprint (currently monolithic)
-└── B4Bot (planned)
-    └── Agent-based project automation review and issue-generation flow repository
+└── B4Bot
+    └── Agent-based project management bot and scoped issue-generation action
 ```
 
 When composing a local B4A workspace, place `AGENTS.md` and `AGENTS.ko.md` at the top-level root above the individual repositories.
