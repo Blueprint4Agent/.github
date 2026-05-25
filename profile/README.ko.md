@@ -18,7 +18,13 @@ Blueprint4Agent는 **에이전틱 코딩(Agentic Coding)을 위한 웹 서버 �
 
 ```text
 Blueprint4Agent/
+├── AGENTS.md
+│   └── 여러 저장소로 구성된 B4A 로컬 워크스페이스를 관리하는 최상위 영어 에이전트 가이드
+├── AGENTS.ko.md
+│   └── 여러 저장소로 구성된 B4A 로컬 워크스페이스를 관리하는 최상위 한국어 에이전트 가이드
 ├── .github
+│   ├── AGENTS.md
+│   ├── AGENTS.ko.md
 │   └── 조직 프로필, 공통 정책, 워크플로우 템플릿
 ├── Blueprint4Agent.github.io
 │   └── Docusaurus 기반 프로젝트 문서 웹사이트 (GitHub Pages)
@@ -27,6 +33,12 @@ Blueprint4Agent/
 └── B4Bot (planned)
     └── 에이전트 기반 프로젝트 자동화 검토/이슈 생성 플로우 저장소
 ```
+
+B4A 로컬 워크스페이스를 구성할 때는 개별 저장소들보다 상위의 최상위 루트에 `AGENTS.md`와 `AGENTS.ko.md`를 배치합니다.
+이 파일들을 여러 저장소 구조, 저장소 경계, 필수 문서 읽기 순서, 에이전트 작업 규칙을 조율하는 루트 가이드로 사용합니다.
+
+`.github` 저장소는 저장소 루트에 `AGENTS.md`와 `AGENTS.ko.md`를 포함하며, 이 파일들을 로컬 구성의 기준 문서로 사용합니다.
+실제 사용 시에는 개별 저장소 내부에만 두지 말고, 로컬 워크스페이스 최상위 루트에 이 가이드들을 구성합니다.
 
 ## 방향성
 

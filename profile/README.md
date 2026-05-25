@@ -18,7 +18,13 @@ The ultimate goal is to let teams adopt this organization structure as-is and ru
 
 ```text
 Blueprint4Agent/
+├── AGENTS.md
+│   └── English top-level local agent guide for managing the multi-repository B4A workspace
+├── AGENTS.ko.md
+│   └── Korean top-level local agent guide for managing the multi-repository B4A workspace
 ├── .github
+│   ├── AGENTS.md
+│   ├── AGENTS.ko.md
 │   └── Organization profile, shared policies, workflow templates
 ├── Blueprint4Agent.github.io
 │   └── Docusaurus-based project documentation website (GitHub Pages)
@@ -27,6 +33,12 @@ Blueprint4Agent/
 └── B4Bot (planned)
     └── Agent-based project automation review and issue-generation flow repository
 ```
+
+When composing a local B4A workspace, place `AGENTS.md` and `AGENTS.ko.md` at the top-level root above the individual repositories.
+Use them as the root coordination guides for the multi-repository structure, repository boundaries, required read order, and agent workflow rules.
+
+The `.github` repository includes `AGENTS.md` and `AGENTS.ko.md` at its repository root as the source references for this setup.
+Configure those guides in the actual local workspace root, not only inside an individual repository checkout.
 
 ## Direction
 
