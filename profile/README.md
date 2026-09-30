@@ -3,8 +3,9 @@
 Blueprint4Agent is an **organization for agentic coding web server blueprints (templates)**.
 It is designed with a **de facto first** approach for practical adoption and optimized for agentic automation workflows.
 
-At the moment, the organization provides a **FastAPI-based monolithic blueprint**.
-In future phases, additional web server framework blueprints such as **Node.js** and **Spring Boot** will be added.
+At the moment, the organization provides a **FastAPI-based full-stack blueprint** whose frontend is the shared **B4React** repository, pinned as a Git submodule.
+A **Spring Boot** blueprint (**B4SpringBoot**) is being added next, reusing the same B4React frontend and API contract.
+Additional web server framework blueprints such as **Node.js** will follow in later phases.
 
 The ultimate goal is to let teams adopt this organization structure as-is and run GitHub projects in an **agentic coding workflow** from day one.
 
@@ -12,6 +13,7 @@ The ultimate goal is to let teams adopt this organization structure as-is and ru
 
 - Provide a documentation website via GitHub Pages + Docusaurus
 - Provide baseline templates for specs, manuals, and project documentation
+- Provide a shared frontend (B4React) that multiple backend blueprints consume through a common API contract
 - Provide automation flows for project review and issue creation via agent automation bots
 
 ## Repository Structure
@@ -29,7 +31,11 @@ Blueprint4Agent/
 ├── Blueprint4Agent.github.io
 │   └── Docusaurus-based project documentation website (GitHub Pages)
 ├── B4FastAPI
-│   └── FastAPI-based web server blueprint (currently monolithic)
+│   └── FastAPI-based full-stack web server blueprint (B4React frontend as a submodule)
+├── B4React
+│   └── Shared React + TypeScript frontend for B4 API backends (optional Tauri desktop shell)
+├── B4SpringBoot
+│   └── Spring Boot-based web server blueprint (planned)
 └── B4Bot
     └── Agent-based project management bot and scoped issue-generation action
 ```

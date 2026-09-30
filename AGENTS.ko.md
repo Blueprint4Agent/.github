@@ -27,6 +27,9 @@ blueprint4agent/
 ├── AGENTS.ko.md
 ├── .github/
 ├── B4FastAPI/
+├── B4React/
+├── B4SpringBoot/  # 예정
+├── B4Bot/
 └── Blueprint4Agent.github.io/
 ```
 
@@ -37,7 +40,7 @@ blueprint4agent/
 
 - 조직 전체 프로필 콘텐츠는 `profile/`에 둔다.
 - 구현 세부사항은 해당 구현을 소유한 저장소에 둔다.
-- 조직 개요에 필요한 내용이 아니라면 B4FastAPI 전용 또는 Docusaurus 전용 기술 세부사항을 이 저장소에 두지 않는다.
+- 조직 개요에 필요한 내용이 아니라면 B4FastAPI, B4React, B4SpringBoot, B4Bot, Docusaurus 전용 기술 세부사항을 이 저장소에 두지 않는다.
 - 영어와 한국어 프로필 README 콘텐츠를 동기화한다.
 - `AGENTS.md`와 `AGENTS.ko.md`를 함께 관리한다.
 

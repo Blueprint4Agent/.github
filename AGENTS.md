@@ -27,6 +27,9 @@ blueprint4agent/
 ├── AGENTS.ko.md
 ├── .github/
 ├── B4FastAPI/
+├── B4React/
+├── B4SpringBoot/  # planned
+├── B4Bot/
 └── Blueprint4Agent.github.io/
 ```
 
@@ -37,7 +40,7 @@ The top-level local guide must describe the multi-repository structure, reposito
 
 - Keep organization-wide profile content in `profile/`.
 - Keep implementation details in the repository that owns the implementation.
-- Do not place B4FastAPI-specific or Docusaurus-specific technical details in this repository unless they are part of the organization overview.
+- Do not place B4FastAPI-, B4React-, B4SpringBoot-, B4Bot-, or Docusaurus-specific technical details in this repository unless they are part of the organization overview.
 - Keep English and Korean profile README content synchronized.
 - Maintain `AGENTS.md` and `AGENTS.ko.md` together.
 
